@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ccr.customdialog.MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <Button
+      android:text="自定义Dialog"
+      android:id="@+id/custom_dialog"
+      android:layout_width="match_parent"
+      android:layout_height="40dp" />
+
+  <Button
+      android:text="分享Dialog底部"
+      android:id="@+id/share_dialog_buttom"
+      android:layout_width="match_parent"
+      android:layout_height="40dp" />
+  <Button
+      android:text="分享Dialog顶部"
+      android:id="@+id/share_dialog_top"
+      android:layout_width="match_parent"
+      android:layout_height="40dp" />
+  <Button
+      android:text="Dialog中部"
+      android:id="@+id/dialog_center"
+      android:layout_width="match_parent"
+      android:layout_height="40dp" />
+  <Button
+      android:text="退出Dialog"
+      android:id="@+id/exit_dialog"
+      android:layout_width="match_parent"
+      android:layout_height="40dp" />
+</LinearLayout>
+
+
+</RelativeLayout>

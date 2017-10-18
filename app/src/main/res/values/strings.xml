@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+    <string name="wx">微信</string>
+    <string name="wx_chat_friend">微信朋友圈</string>
+    <string name="qq">QQ</string>
+    <string name="sim">短信</string>
+</resources>
